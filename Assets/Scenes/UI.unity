@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -664,9 +664,9 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -684,7 +684,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 111030841}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 923811496}
+        m_TargetAssemblyTypeName: PadManager, Assembly-CSharp
+        m_MethodName: SelectMenu
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &111171927
 GameObject:
   m_ObjectHideFlags: 0
@@ -909,9 +921,9 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -930,13 +942,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 307303780}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 923811496}
+        m_TargetAssemblyTypeName: PadManager, Assembly-CSharp
+        m_MethodName: SelectMenu
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1328,31 +1340,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 307303780}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 640edb17f86c6e04ab03202e96752e3e, type: 3}
+  m_Script: {fileID: 11500000, guid: b663da9eadb30db49841f7237e439814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Pad: {fileID: 2074647861}
-  GamePadImage: {fileID: 431228980}
-  MenuPadImage: {fileID: 1485708715}
-  GamePadTxt: {fileID: 1163719191}
-  MenuPadTxt: {fileID: 33390740}
-  GamePad: {fileID: 272020231}
-  MenuPad: {fileID: 1458930149}
-  MenuBoxParent: {fileID: 2127142106}
-  MenuPrefab: {fileID: 2675130382142814055, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-  SelectMenuNumList: 
-  MenuList:
-  - {fileID: 148143721}
-  - {fileID: 1693929759}
-  - {fileID: 111030843}
-  - {fileID: 840543556}
-  MenuSprtieList:
-  - {fileID: 21300000, guid: 18c5939389e0d2346a170e90def25dc9, type: 3}
-  - {fileID: 21300000, guid: 2ef4cbb76419a4b4aa5ca7ae4acd1928, type: 3}
-  - {fileID: 21300000, guid: c555f21a0af013742a65b3bbfecc6173, type: 3}
-  - {fileID: 21300000, guid: 4bc3cd828eccb034bae273d826b209b0, type: 3}
-  MenuTxtList: []
-  MenuNum: 0
+  padMgr: {fileID: 923811496}
   MenuPan: {fileID: 1489799305}
   GamePan: {fileID: 1324027749}
   InGameSet: {fileID: 514683693}
@@ -2344,8 +2336,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 307303781}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+      - m_Target: {fileID: 923811496}
+        m_TargetAssemblyTypeName: PadManager, Assembly-CSharp
         m_MethodName: GamePadBtn
         m_Mode: 1
         m_Arguments:
@@ -2477,13 +2469,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 923811496}
+        m_TargetAssemblyTypeName: PadManager, Assembly-CSharp
+        m_MethodName: orderBtn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2784,7 +2776,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &514683694
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3862,9 +3854,9 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -3882,7 +3874,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 840543554}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 923811496}
+        m_TargetAssemblyTypeName: PadManager, Assembly-CSharp
+        m_MethodName: SelectMenu
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &843183221
 GameObject:
   m_ObjectHideFlags: 0
@@ -4627,6 +4631,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 918328556}
   m_CullTransparentMesh: 1
+--- !u!1 &923811495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 923811497}
+  - component: {fileID: 923811496}
+  m_Layer: 0
+  m_Name: PadManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &923811496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923811495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3367435c58a60054b9bc2591a9ac0b33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GamePadImage: {fileID: 431228980}
+  MenuPadImage: {fileID: 1485708715}
+  GamePadTxt: {fileID: 1163719191}
+  MenuPadTxt: {fileID: 33390740}
+  GamePad: {fileID: 272020231}
+  MenuPad: {fileID: 1458930149}
+  MenuBoxParent: {fileID: 2127142106}
+  MenuPrefab: {fileID: 2675130382142814055, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
+  SelectMenuNumList: 
+  MenuList:
+  - {fileID: 148143721}
+  - {fileID: 1693929759}
+  - {fileID: 111030843}
+  - {fileID: 840543556}
+  PrefabList: []
+  MenuNum: 0
+  SameCount: 0
+--- !u!4 &923811497
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923811495}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &947433283
 GameObject:
   m_ObjectHideFlags: 0
@@ -5460,11 +5525,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1056183526}
   m_CullTransparentMesh: 1
---- !u!224 &1076738691 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-  m_PrefabInstance: {fileID: 4349600049630557932}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1081069682
 GameObject:
   m_ObjectHideFlags: 0
@@ -6864,8 +6924,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 307303781}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+      - m_Target: {fileID: 923811496}
+        m_TargetAssemblyTypeName: PadManager, Assembly-CSharp
         m_MethodName: MenuPadBtn
         m_Mode: 1
         m_Arguments:
@@ -8126,9 +8186,9 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -8146,7 +8206,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1693929757}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 923811496}
+        m_TargetAssemblyTypeName: PadManager, Assembly-CSharp
+        m_MethodName: SelectMenu
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1710913115
 GameObject:
   m_ObjectHideFlags: 0
@@ -8473,9 +8545,9 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -8494,8 +8566,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 307303781}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+      - m_Target: {fileID: 923811496}
+        m_TargetAssemblyTypeName: PadManager, Assembly-CSharp
         m_MethodName: CollectGame
         m_Mode: 1
         m_Arguments:
@@ -9629,7 +9701,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2074647862
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9756,14 +9828,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1076738691}
+  m_Children: []
   m_Father: {fileID: 309445371}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -510, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2127142109
 MonoBehaviour:
@@ -9805,103 +9876,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!1001 &4349600049630557932
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2127142107}
-    m_Modifications:
-    - target: {fileID: 2675130382142814055, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_Name
-      value: SelectMenu
-      objectReference: {fileID: 0}
-    - target: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 150
-      objectReference: {fileID: 0}
-    - target: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6983982691430152934, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a7db8005d0546ab41a8e83434b7ca5e1, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -9911,3 +9885,4 @@ SceneRoots:
   - {fileID: 497675403}
   - {fileID: 1588169601}
   - {fileID: 307303782}
+  - {fileID: 923811497}
