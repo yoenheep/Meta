@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\",
+  "WorkspaceRootPath": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\meta\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|c:\\users\\yju\\documents\\github\\meta\\assets\\scripts\\selectmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\selectmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|c:\\users\\yju\\documents\\github\\meta\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SelectMenu.cs",
+              "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\SelectMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SelectMenu.cs",
+              "ToolTip": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\SelectMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SelectMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:13:05.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UIManager.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Scripts\\UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\UIManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAACsAAAAFAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAA1wG0AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T19:10:56.568Z",
               "EditorCaption": ""

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.VisualScripting;
 
 public class UIManager : MonoBehaviour
 {
@@ -14,7 +15,14 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI MenuPadTxt;
     public GameObject GamePad;
     public GameObject MenuPad;
-    public List<GameObject> SelectList;
+    public GameObject MenuBoxParent;
+    public GameObject MenuPrefab;
+    public List<int> SelectMenuNumList;
+
+    public Button[] MenuList;
+    public List<Sprite> MenuSprtieList;
+    public List<string> MenuTxtList;
+    public int MenuNum;
 
     [Header ("#MenuPan")]
     public GameObject MenuPan;
@@ -25,11 +33,28 @@ public class UIManager : MonoBehaviour
     [Header("InGameSet")]
     public GameObject InGameSet;
 
+    public static UIManager Instance;
+
     private void Awake()
     {
-        GamePad.SetActive(true);
-        MenuPad.SetActive(false);
-        SelectList = new List<GameObject>();
+        Instance = this;
+
+        MenuPad.SetActive(true);
+        GamePad.SetActive(false);
+        InGameSet.SetActive(false);
+
+        SelectMenuNumList = new List<int> ();
+        MenuSprtieList = new List<Sprite>();
+        MenuTxtList = new List<string>() { "아이스티", "아이스 아메리카노", "아메리카노", "제로펩시"};
+    }
+
+    private void Start()
+    {
+        for(int i = 0; i < MenuList.Length; i++)
+        {
+            int temp = i;
+            MenuList[temp].onClick.AddListener(() => SelectMenu(temp));
+        }
     }
 
     public void GamePadBtn()
@@ -56,21 +81,33 @@ public class UIManager : MonoBehaviour
 
     public void Back()
     {
-        if(Pad.activeSelf == true)
+        if(Pad.activeSelf == true && InGameSet.activeSelf == false)
         {
             Pad.SetActive(false);
         }
-        else if(MenuPad.activeSelf == true)
+        else if(MenuPan.activeSelf == true)
         {
-            MenuPad.SetActive(false);
+            MenuPan.SetActive(false);
         }
-        else if(GamePad.activeSelf == true)
+        else if(GamePan.activeSelf == true)
         {
-            GamePad.SetActive(false);
+            GamePan.SetActive(false);
         }
         else if(InGameSet.activeSelf == true)
         {
             InGameSet.SetActive(false);
         }
+    }
+
+    public void CollectGame()
+    {
+        InGameSet.SetActive(true);
+    }
+
+    public void SelectMenu(int num)
+    {
+        MenuNum = num;
+        SelectMenuNumList.Add(num);
+        //Instantiate(MenuPrefab.name, transform.position, Quaternion.identity);
     }
 }
