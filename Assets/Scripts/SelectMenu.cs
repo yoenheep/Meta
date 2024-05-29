@@ -25,7 +25,7 @@ public class SelectMenu : MonoBehaviour
 
         Img.sprite = MenuSprtieList[UIManager.Instance.padMgr.MenuNum];
         NameTxt.text = MenuTxtList[UIManager.Instance.padMgr.MenuNum];
-        NumTxt.text = "";
+        NumTxt.text = "X1";
 
         UIManager.Instance.padMgr.PrefabList[UIManager.Instance.padMgr.MenuNum] = this.gameObject;
     }

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -68,43 +69,37 @@ public class PadManager : MonoBehaviour
         UIManager.Instance.InGameSet.SetActive(true);
     }
 
+
     public void SelectMenu(int num)
     {
         MenuNum = num;
         SelectMenuNumList.Add(num);
 
-        bool isAlreadyInstantiated = false;
-
-        for (int i = 0; i < SelectMenuNumList.Count - 1; i++)
+        if (PrefabList[num] != null)
         {
-            if (SelectMenuNumList[i] == num)
-            {
-                MenuEtc();
-                Debug.Log(SameCount);
-                isAlreadyInstantiated = true;
-                GameObject existingPrefab = PrefabList[num];
-                TextMeshProUGUI[] prefabTextComponents = existingPrefab.GetComponentsInChildren<TextMeshProUGUI>();
+            MenuEtc();
+            GameObject existingPrefab = PrefabList[num];
+            TextMeshProUGUI[] prefabtextComponents = existingPrefab.GetComponentsInChildren<TextMeshProUGUI>();
 
-                foreach (TextMeshProUGUI texComponent in prefabTextComponents)
+            foreach (TextMeshProUGUI texComponent in prefabtextComponents)
+            {
+                if (texComponent.name == "orderNumTxt")
                 {
-                    if (texComponent.name == "orderNumTxt")
-                    {
-                        texComponent.text = "X" + SameCount;
-                    }
+                    texComponent.text = "X" + SameCount;
                 }
-                break;
             }
         }
-
-        if (!isAlreadyInstantiated)
+    
+        if (PrefabList[num] == null)
         {
-            GameObject MenuInstance = Instantiate(MenuPrefab, transform.position, Quaternion.identity);
+            GameObject menuinstance = Instantiate(MenuPrefab, transform.position, Quaternion.identity);
         }
     }
 
+
     void MenuEtc()
     {
-        SameCount = 0;
+        SameCount = 1;
 
         for (int i = 0; i < SelectMenuNumList.Count - 1; i++)
         {
