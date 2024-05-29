@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\scripts\\selectmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\scripts\\swipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\swipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|c:\\users\\yju\\documents\\github\\meta\\assets\\scripts\\selectmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\selectmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|c:\\users\\yju\\documents\\github\\meta\\assets\\scripts\\padmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\scripts\\padmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\padmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|c:\\users\\yju\\documents\\github\\meta\\assets\\scripts\\swipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\swipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "SwipeController.cs",
               "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\SwipeController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SwipeController.cs",
               "ToolTip": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\SwipeController.cs",
               "RelativeToolTip": "Assets\\Scripts\\SwipeController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAADwvyQAAAAXAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwCgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T01:37:37.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PadManager.cs",
               "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\PadManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PadManager.cs",
@@ -51,12 +51,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PadManager.cs",
               "ViewState": "AQIAAEsAAAAAAAAAAAD4v2UAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T19:31:14.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T19:31:14.418Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UIManager.cs",
               "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
@@ -64,12 +63,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAADwvx8AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T19:31:11.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T19:31:11.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SelectMenu.cs",
               "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\SelectMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SelectMenu.cs",
