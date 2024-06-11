@@ -25,9 +25,6 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 	public PlayerScript[] Players;
 	public Transform[] Pos;
 
-	
-	
-
 	int myNum, turn;
 	PhotonView PV;
 
@@ -64,13 +61,13 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 		return PhotonNetwork.LocalPlayer.IsMasterClient;
 	}
 
-	public override void OnJoinedRoom()
+	public override void OnJoinedRoom() // 닉넴적고 접속누름
 	{
 		ShowPanel(RoomPanel);
 		if (master()) InitGameBtn.SetActive(true);
 	}
 
-	public void InitGame() 
+	public void InitGame() // 시작버튼
 	{
 		if (PhotonNetwork.CurrentRoom.PlayerCount != 2) return;
 
