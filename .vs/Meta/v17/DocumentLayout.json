@@ -3,19 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\scripts\\groundscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\groundscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|c:\\users\\yju\\documents\\github\\meta\\assets\\scripts\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|c:\\users\\yju\\documents\\github\\meta\\assets\\photon\\photonrealtime\\demos\\demoloadbalancing\\connectandjoinrandomlb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\photon\\photonrealtime\\demos\\demoloadbalancing\\connectandjoinrandomlb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\photon\\photonrealtime\\demos\\demoloadbalancing\\connectandjoinrandomlb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|c:\\users\\yju\\documents\\github\\meta\\assets\\photon\\photonchat\\demos\\demochat\\chatgui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\photon\\photonchat\\demos\\demochat\\chatgui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\photon\\photonchat\\demos\\demochat\\chatgui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|c:\\users\\yju\\documents\\github\\meta\\assets\\photon\\photonunitynetworking\\changelog.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\photon\\photonunitynetworking\\changelog.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\photon\\photonunitynetworking\\changelog.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
@@ -25,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\scripts\\swipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\padmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\scripts\\groundscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\groundscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\scripts\\dicescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dicescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -58,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ConnectAndJoinRandomLb.cs",
               "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Photon\\PhotonRealtime\\Demos\\DemoLoadBalancing\\ConnectAndJoinRandomLb.cs",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonRealtime\\Demos\\DemoLoadBalancing\\ConnectAndJoinRandomLb.cs",
@@ -70,12 +70,11 @@
               "RelativeToolTip": "Assets\\Photon\\PhotonRealtime\\Demos\\DemoLoadBalancing\\ConnectAndJoinRandomLb.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T01:23:01.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T01:23:01.579Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ChatGui.cs",
               "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Photon\\PhotonChat\\Demos\\DemoChat\\ChatGui.cs",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonChat\\Demos\\DemoChat\\ChatGui.cs",
@@ -83,12 +82,11 @@
               "RelativeToolTip": "Assets\\Photon\\PhotonChat\\Demos\\DemoChat\\ChatGui.cs",
               "ViewState": "AQIAAJoAAAAAAAAAAAAAAJoAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T01:22:54.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T01:22:54.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "changelog.txt",
               "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Photon\\PhotonUnityNetworking\\changelog.txt",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonUnityNetworking\\changelog.txt",
@@ -96,31 +94,30 @@
               "RelativeToolTip": "Assets\\Photon\\PhotonUnityNetworking\\changelog.txt",
               "ViewState": "AQIAAFIBAAAAAAAAAAAowG8BAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-06-19T01:22:49.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T01:22:49.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NetworkManager.cs",
               "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\NetworkManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NetworkManager.cs",
               "ToolTip": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\NetworkManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\NetworkManager.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAUwFIAAAAhAAAA",
+              "ViewState": "AQIAAGEAAAAAAAAAAADwv5gAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T01:52:26.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "GroundScript.cs",
               "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\GroundScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GroundScript.cs",
               "ToolTip": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\GroundScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\GroundScript.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAABIwAAAAAAAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAADwv1IAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T01:52:23.823Z",
               "EditorCaption": ""
@@ -135,12 +132,11 @@
               "RelativeToolTip": "Assets\\Scripts\\DiceScript.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T01:52:20.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T01:52:20.064Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AllCalbackManager.cs",
               "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\AllCalbackManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AllCalbackManager.cs",
@@ -148,25 +144,24 @@
               "RelativeToolTip": "Assets\\Scripts\\AllCalbackManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T01:52:01.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T01:52:01.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "PlayerScript.cs",
               "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\PlayerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScript.cs",
               "ToolTip": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\PlayerScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerScript.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBAAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T01:36:54.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "SwipeController.cs",
               "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\SwipeController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SwipeController.cs",
@@ -174,12 +169,11 @@
               "RelativeToolTip": "Assets\\Scripts\\SwipeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T01:37:37.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T01:37:37.248Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PadManager.cs",
               "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\PadManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PadManager.cs",
@@ -187,12 +181,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PadManager.cs",
               "ViewState": "AQIAAEUAAAAAAAAAAAAYwGQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T19:31:14.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T19:31:14.418Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UIManager.cs",
               "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
@@ -200,12 +193,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T19:31:11.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T19:31:11.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "SelectMenu.cs",
               "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\SelectMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SelectMenu.cs",
@@ -213,8 +205,7 @@
               "RelativeToolTip": "Assets\\Scripts\\SelectMenu.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAABIwBQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T06:13:05.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T06:13:05.896Z"
             }
           ]
         }

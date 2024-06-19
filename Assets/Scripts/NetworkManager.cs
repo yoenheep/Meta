@@ -5,127 +5,149 @@ using UnityEngine.UI;
 using Photon.Pun;
 using Photon.Realtime;
 
-
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
-	[Header("DisconnectPanel")]
-	public GameObject DisconnectPanel;
-	public InputField NicknameInput;
+    [Header("DisconnectPanel")]
+    public GameObject DisconnectPanel;
+    public InputField NicknameInput;
 
-	[Header("RoomPanel")]
-	public GameObject RoomPanel;
-	public GameObject InitGameBtn, RollBtn;
-	public Text[] NicknameTexts;
-	public GameObject[] ArrowImages;
-	public Text[] MoneyTexts;
-	public Text LogText;
+    [Header("RoomPanel")]
+    public GameObject RoomPanel;
+    public GameObject InitGameBtn, RollBtn;
+    public Text[] NicknameTexts;
+    public GameObject[] ArrowImages;
+    public Text[] MoneyTexts;
+    public Text LogText;
 
-	[Header("Board")]
-	public DiceScript diceScript;
-	public PlayerScript[] Players;
-	public Transform[] Pos;
+    [Header("Board")]
+    public DiceScript diceScript;
+    public PlayerScript[] Players;
+    public Transform[] Pos;
 
-	int myNum, turn;
-	PhotonView PV;
+    int myNum, turn;
+    PhotonView PV;
 
-
-	void Start()
-	{
+    void Start()
+    {
 #if (!UNITY_ANDROID)
-		Screen.SetResolution(960, 540, false);
+        Screen.SetResolution(960, 540, false);
 #endif
-		PV = photonView;
-	}
+        PV = photonView;
+        ShowPanel(DisconnectPanel);
+    }
 
-	public void Connect() 
-	{
-		PhotonNetwork.LocalPlayer.NickName = NicknameInput.text;
-		PhotonNetwork.ConnectUsingSettings();
-	}
+    public void Connect()
+    {
+        PhotonNetwork.LocalPlayer.NickName = NicknameInput.text;
+        PhotonNetwork.ConnectUsingSettings();
+    }
 
-	public override void OnConnectedToMaster()
-	{
-		PhotonNetwork.JoinOrCreateRoom("MyRoom", new RoomOptions { MaxPlayers = 2 }, null);
-	}
+    public override void OnConnectedToMaster()
+    {
+        // 랜덤 방에 접속을 시도하고 실패하면 새로운 방을 생성합니다.
+        PhotonNetwork.JoinRandomRoom();
+    }
 
-	void ShowPanel(GameObject CurPanel) 
-	{
-		DisconnectPanel.SetActive(false);
-		RoomPanel.SetActive(false);
+    public override void OnJoinRandomFailed(short returnCode, string message)
+    {
+        // 랜덤 방에 접속을 실패하면 새로운 방을 생성합니다.
+        CreateRoom();
+    }
 
-		CurPanel.SetActive(true);
-	}
+    void CreateRoom()
+    {
+        string roomName = "Room_" + Random.Range(0, 10000);
+        RoomOptions roomOptions = new RoomOptions { MaxPlayers = 2 };
+        PhotonNetwork.CreateRoom(roomName, roomOptions, TypedLobby.Default);
+    }
 
-	bool master() 
-	{
-		return PhotonNetwork.LocalPlayer.IsMasterClient;
-	}
+    void ShowPanel(GameObject CurPanel)
+    {
+        DisconnectPanel.SetActive(false);
+        RoomPanel.SetActive(false);
 
-	public override void OnJoinedRoom() // 닉넴적고 접속누름
-	{
-		ShowPanel(RoomPanel);
-		if (master()) InitGameBtn.SetActive(true);
-	}
+        CurPanel.SetActive(true);
+    }
 
-	public void InitGame() // 시작버튼
-	{
-		if (PhotonNetwork.CurrentRoom.PlayerCount != 2) return;
+    bool master()
+    {
+        return PhotonNetwork.LocalPlayer.IsMasterClient;
+    }
 
-		RollBtn.SetActive(true);
-		InitGameBtn.SetActive(false);
-		PV.RPC("InitGameRPC", RpcTarget.AllViaServer);
+    public override void OnJoinedRoom()
+    {
+        ShowPanel(RoomPanel);
 
-	}
+        if (PhotonNetwork.CurrentRoom.PlayerCount > 2)
+        {
+            // 방에 두 명 이상이면 새로운 방을 생성합니다.
+            CreateRoom();
+            return;
+        }
 
-	[PunRPC]
-	void InitGameRPC() 
-	{
-		print("게임시작");
-		for (int i = 0; i < 2; i++)
-		{
-			NicknameTexts[i].text = PhotonNetwork.PlayerList[i].NickName;
+        if (master() && PhotonNetwork.CurrentRoom.PlayerCount == 1)
+        {
+            InitGameBtn.SetActive(true);
+        }
+    }
 
-			if (PhotonNetwork.PlayerList[i] == PhotonNetwork.LocalPlayer)
-				myNum = i;
-		}
-	}
+    public void InitGame()
+    {
+        if (PhotonNetwork.CurrentRoom.PlayerCount != 2) return;
 
+        RollBtn.SetActive(true);
+        InitGameBtn.SetActive(false);
+        PV.RPC("InitGameRPC", RpcTarget.AllViaServer);
+    }
 
-	public void Roll() 
-	{
-		PV.RPC("RollRPC", RpcTarget.MasterClient);
-	}
+    [PunRPC]
+    void InitGameRPC()
+    {
+        print("게임시작");
+        for (int i = 0; i < 2; i++)
+        {
+            NicknameTexts[i].text = PhotonNetwork.PlayerList[i].NickName;
 
-	[PunRPC]
-	void RollRPC() 
-	{
-		StartCoroutine(RollCo());
-	}
+            if (PhotonNetwork.PlayerList[i] == PhotonNetwork.LocalPlayer)
+                myNum = i;
+        }
+    }
 
-	[PunRPC]
-	void EndRollRPC(int money0, int money1)
-	{
-		turn = turn == 0 ? 1 : 0;
+    public void Roll()
+    {
+        PV.RPC("RollRPC", RpcTarget.MasterClient);
+    }
 
-		for (int i = 0; i < 2; i++)
-			ArrowImages[i].SetActive(i == turn);
+    [PunRPC]
+    void RollRPC()
+    {
+        StartCoroutine(RollCo());
+    }
 
-		RollBtn.SetActive(myNum == turn);
+    [PunRPC]
+    void EndRollRPC(int money0, int money1)
+    {
+        turn = turn == 0 ? 1 : 0;
 
-		MoneyTexts[0].text = money0.ToString();
-		MoneyTexts[1].text = money1.ToString();
+        for (int i = 0; i < 2; i++)
+            ArrowImages[i].SetActive(i == turn);
 
-		if (money0 <= 0 || money1 >= 300) LogText.text = NicknameTexts[1].text + "이 승리하셨습니다";
-		else if (money1 <= 0 || money0 >= 300) LogText.text = NicknameTexts[0].text + "이 승리하셨습니다";
-	}
+        RollBtn.SetActive(myNum == turn);
 
-	IEnumerator RollCo() 
-	{
-		// 방장만 함수 호출
-		yield return StartCoroutine(diceScript.Roll());
-		yield return StartCoroutine(Players[turn].Move(diceScript.num));
-		yield return new WaitForSeconds(0.2f);
+        MoneyTexts[0].text = money0.ToString();
+        MoneyTexts[1].text = money1.ToString();
 
-		PV.RPC("EndRollRPC", RpcTarget.AllViaServer, Players[0].money, Players[1].money);
-	}
+        if (money0 <= 0 || money1 >= 300) LogText.text = NicknameTexts[1].text + "이 승리하셨습니다";
+        else if (money1 <= 0 || money0 >= 300) LogText.text = NicknameTexts[0].text + "이 승리하셨습니다";
+    }
+
+    IEnumerator RollCo()
+    {
+        // 방장만 함수 호출
+        yield return StartCoroutine(diceScript.Roll());
+        yield return StartCoroutine(Players[turn].Move(diceScript.num));
+        yield return new WaitForSeconds(0.2f);
+
+        PV.RPC("EndRollRPC", RpcTarget.AllViaServer, Players[0].money, Players[1].money);
+    }
 }
