@@ -435,13 +435,18 @@
 "Assets/Photon/PhotonChat/Demos/DemoChat/NamePickGui.cs"
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
 "Assets/Scripts/AllCalbackManager.cs"
+"Assets/Scripts/Character_Controller.cs"
 "Assets/Scripts/DiceScript.cs"
+"Assets/Scripts/Door.cs"
 "Assets/Scripts/GroundScript.cs"
 "Assets/Scripts/NetworkManager.cs"
+"Assets/Scripts/ObjectController.cs"
 "Assets/Scripts/PadManager.cs"
 "Assets/Scripts/PlayerScript.cs"
+"Assets/Scripts/Player_Controller.cs"
 "Assets/Scripts/SelectMenu.cs"
 "Assets/Scripts/SwipeController.cs"
+"Assets/Scripts/Tablet.cs"
 "Assets/Scripts/UIManager.cs"
 -langversion:9.0
 
