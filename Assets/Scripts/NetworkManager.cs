@@ -14,11 +14,14 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
 	[Header("RoomPanel")]
 	public GameObject RoomPanel;
-	public GameObject InitGameBtn, RollBtn;
+	public GameObject startBg, RollBtn;
 	public Text[] NicknameTexts;
 	public GameObject[] ArrowImages;
 	public Text[] MoneyTexts;
 	public Text LogText;
+	public Sprite[] seasonSprite;
+	public int rand;
+	public Image seasonImg;
 
 	[Header("Board")]
 	public DiceScript diceScript;
@@ -64,17 +67,24 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 	public override void OnJoinedRoom() // 닉넴적고 접속누름
 	{
 		ShowPanel(RoomPanel);
-		if (master()) InitGameBtn.SetActive(true);
+		if (master()) startBg.SetActive(true);
 	}
+
+	void InitRpc()
+	{
+        PV.RPC("InitGameRPC", RpcTarget.AllViaServer);
+    }
 
 	public void InitGame() // 시작버튼
 	{
 		if (PhotonNetwork.CurrentRoom.PlayerCount != 2) return;
 
 		RollBtn.SetActive(true);
-		InitGameBtn.SetActive(false);
-		PV.RPC("InitGameRPC", RpcTarget.AllViaServer);
+        startBg.SetActive(false);
+		rand = Random.Range(0, 4);
+		seasonImg.sprite = seasonSprite[rand];
 
+		Invoke("InitRpc",5f);
 	}
 
 	[PunRPC]
