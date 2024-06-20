@@ -1,54 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\scripts\\groundscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\groundscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|c:\\users\\yju\\documents\\github\\meta\\assets\\scripts\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\photon\\photonrealtime\\demos\\demoloadbalancing\\connectandjoinrandomlb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\photon\\photonrealtime\\demos\\demoloadbalancing\\connectandjoinrandomlb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\photon\\photonchat\\demos\\demochat\\chatgui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\photon\\photonchat\\demos\\demochat\\chatgui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\photon\\photonunitynetworking\\changelog.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\photon\\photonunitynetworking\\changelog.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\scripts\\allcalbackmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\USER\\Documents\\GitHub\\Meta\\assets\\scripts\\allcalbackmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\allcalbackmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\USER\\Documents\\GitHub\\Meta\\assets\\scripts\\dicescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dicescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\USER\\Documents\\GitHub\\Meta\\assets\\scripts\\groundscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\groundscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\USER\\Documents\\GitHub\\Meta\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\meta\\assets\\scripts\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\USER\\Documents\\GitHub\\Meta\\assets\\photon\\photonrealtime\\demos\\demoloadbalancing\\connectandjoinrandomlb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\photon\\photonrealtime\\demos\\demoloadbalancing\\connectandjoinrandomlb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\USER\\Documents\\GitHub\\Meta\\assets\\photon\\photonchat\\demos\\demochat\\chatgui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\photon\\photonchat\\demos\\demochat\\chatgui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\USER\\Documents\\GitHub\\Meta\\assets\\photon\\photonunitynetworking\\changelog.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\photon\\photonunitynetworking\\changelog.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\USER\\Documents\\GitHub\\Meta\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\scripts\\swipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\USER\\Documents\\GitHub\\Meta\\assets\\scripts\\swipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\swipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\scripts\\selectmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\USER\\Documents\\GitHub\\Meta\\assets\\scripts\\selectmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\selectmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\scripts\\padmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\USER\\Documents\\GitHub\\Meta\\assets\\scripts\\padmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\padmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|C:\\Users\\YJU\\Documents\\GitHub\\Meta\\assets\\scripts\\dicescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77A3F8E8-46A1-D3DA-AE5F-CF97BF119CFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dicescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,15 +58,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ConnectAndJoinRandomLb.cs",
-              "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Photon\\PhotonRealtime\\Demos\\DemoLoadBalancing\\ConnectAndJoinRandomLb.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Photon\\PhotonRealtime\\Demos\\DemoLoadBalancing\\ConnectAndJoinRandomLb.cs",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonRealtime\\Demos\\DemoLoadBalancing\\ConnectAndJoinRandomLb.cs",
-              "ToolTip": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Photon\\PhotonRealtime\\Demos\\DemoLoadBalancing\\ConnectAndJoinRandomLb.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Photon\\PhotonRealtime\\Demos\\DemoLoadBalancing\\ConnectAndJoinRandomLb.cs",
               "RelativeToolTip": "Assets\\Photon\\PhotonRealtime\\Demos\\DemoLoadBalancing\\ConnectAndJoinRandomLb.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -74,11 +74,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ChatGui.cs",
-              "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Photon\\PhotonChat\\Demos\\DemoChat\\ChatGui.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Photon\\PhotonChat\\Demos\\DemoChat\\ChatGui.cs",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonChat\\Demos\\DemoChat\\ChatGui.cs",
-              "ToolTip": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Photon\\PhotonChat\\Demos\\DemoChat\\ChatGui.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Photon\\PhotonChat\\Demos\\DemoChat\\ChatGui.cs",
               "RelativeToolTip": "Assets\\Photon\\PhotonChat\\Demos\\DemoChat\\ChatGui.cs",
               "ViewState": "AQIAAJoAAAAAAAAAAAAAAJoAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -86,11 +86,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "changelog.txt",
-              "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Photon\\PhotonUnityNetworking\\changelog.txt",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Photon\\PhotonUnityNetworking\\changelog.txt",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonUnityNetworking\\changelog.txt",
-              "ToolTip": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Photon\\PhotonUnityNetworking\\changelog.txt",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Photon\\PhotonUnityNetworking\\changelog.txt",
               "RelativeToolTip": "Assets\\Photon\\PhotonUnityNetworking\\changelog.txt",
               "ViewState": "AQIAAFIBAAAAAAAAAAAowG8BAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
@@ -98,74 +98,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "NetworkManager.cs",
-              "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\NetworkManager.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Scripts\\NetworkManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NetworkManager.cs",
-              "ToolTip": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\NetworkManager.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Scripts\\NetworkManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\NetworkManager.cs",
-              "ViewState": "AQIAAGEAAAAAAAAAAADwv5gAAAABAAAA",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAcwKIAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T01:52:26.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GroundScript.cs",
-              "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\GroundScript.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Scripts\\GroundScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GroundScript.cs",
-              "ToolTip": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\GroundScript.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Scripts\\GroundScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\GroundScript.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAADwv1IAAAABAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAUwFMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T01:52:23.823Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "DiceScript.cs",
-              "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\DiceScript.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Scripts\\DiceScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DiceScript.cs",
-              "ToolTip": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\DiceScript.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Scripts\\DiceScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\DiceScript.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T01:52:20.064Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AllCalbackManager.cs",
-              "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\AllCalbackManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AllCalbackManager.cs",
-              "ToolTip": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\AllCalbackManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AllCalbackManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T01:52:01.893Z"
+              "WhenOpened": "2024-06-11T01:52:20.064Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AllCalbackManager.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Scripts\\AllCalbackManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AllCalbackManager.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Scripts\\AllCalbackManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AllCalbackManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T01:52:01.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PlayerScript.cs",
-              "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\PlayerScript.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Scripts\\PlayerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScript.cs",
-              "ToolTip": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\PlayerScript.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Scripts\\PlayerScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA8AAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwDAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T01:36:54.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "SwipeController.cs",
-              "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\SwipeController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Scripts\\SwipeController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SwipeController.cs",
-              "ToolTip": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\SwipeController.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Scripts\\SwipeController.cs",
               "RelativeToolTip": "Assets\\Scripts\\SwipeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -173,11 +175,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PadManager.cs",
-              "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\PadManager.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Scripts\\PadManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PadManager.cs",
-              "ToolTip": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\PadManager.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Scripts\\PadManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\PadManager.cs",
               "ViewState": "AQIAAEUAAAAAAAAAAAAYwGQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -185,11 +187,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UIManager.cs",
-              "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Scripts\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
-              "ToolTip": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Scripts\\UIManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -197,11 +199,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "SelectMenu.cs",
-              "DocumentMoniker": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\SelectMenu.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Scripts\\SelectMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SelectMenu.cs",
-              "ToolTip": "C:\\Users\\YJU\\Documents\\GitHub\\Meta\\Assets\\Scripts\\SelectMenu.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Meta\\Assets\\Scripts\\SelectMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\SelectMenu.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAABIwBQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

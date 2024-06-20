@@ -160,7 +160,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     public void overbtn()
     {
-        SceneManager.LoadScene("Ex");
+        SceneManager.LoadScene("Lobby");
     }
 
     IEnumerator RollCo()

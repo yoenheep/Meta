@@ -3,27 +3,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Character_Controller : MonoBehaviour
+public class Character_Controller : MonoBehaviourPun
 {
+    public Photon_Manager mgr_Photon;
+
     public Animator m_Animator;
 
     [Range(0, 10f)]
-    public float f_MoveSpeed;
+    public float f_MoveSpeed = 5f;
 
     [Range(0, 10f)]
-    public float f_RunSpeed;
+    public float f_RunSpeed = 10f;
 
     [Range(0, 100f)]
-    public float f_RotateSpeed;
+    public float f_RotateSpeed = 30f;
 
     public GameObject obj_Rotate_Horizontal;
     public GameObject obj_Rotate_Vertical;
     public GameObject obj_Body;
     public GameObject obj_Cam_First, obj_Cam_Quarter;
 
-    // Start is called before the first frame update
-    private void Start()
+    private IEnumerator Start()
     {
+        while (mgr_Photon == null)
+        {
+            mgr_Photon = FindObjectOfType<Photon_Manager>();
+            yield return null;
+        }
+
         if (GetComponent<PhotonView>().IsMine)
         {
             obj_Cam_First.SetActive(false);
@@ -59,7 +66,7 @@ public class Character_Controller : MonoBehaviour
             //걷기 ON&OFF 및 캐릭터 이동
             if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
             {
-                Debug.Log(new Vector2(pos_x, pos_z));
+                //Debug.Log(new Vector2(pos_x, pos_z));
                 if (pos_x > 0)
                 {
                     if (pos_z > 0)
@@ -138,6 +145,9 @@ public class Character_Controller : MonoBehaviour
                 //obj_Rotate_Horizontal.transform.eulerAngles += new Vector3(0, rot_y, 0) * f_RotateSpeed;
                 transform.eulerAngles += new Vector3(0, rot_y, 0) * f_RotateSpeed;
             }
+        } else
+        {
+            m_Animator.SetBool("Walk", false);
         }
     }
 }

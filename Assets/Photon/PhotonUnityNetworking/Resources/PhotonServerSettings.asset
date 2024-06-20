@@ -47,6 +47,8 @@ MonoBehaviour:
   - CubeRPC
   - InitGameRPC
   - RollRPC
+  - Interact_Door
+  - Interact_Tablet
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1

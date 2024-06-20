@@ -7172,7 +7172,6 @@ MonoBehaviour:
   - {fileID: 605767178}
   - {fileID: 1523228363}
   LogText: {fileID: 1691068490}
-  overBtn: {fileID: 1962813458}
   diceScript: {fileID: 8450878453928086215}
   Players:
   - {fileID: 3157863573233597805}
