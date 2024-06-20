@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Photon.Pun;
 using Photon.Realtime;
+using UnityEngine.SceneManagement;
 
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
@@ -18,6 +19,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public GameObject[] ArrowImages;
     public Text[] MoneyTexts;
     public Text LogText;
+    public GameObject overBtn;
 
     [Header("Board")]
     public DiceScript diceScript;
@@ -95,7 +97,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         if (PhotonNetwork.CurrentRoom.PlayerCount != 2) return;
 
-        RollBtn.SetActive(true);
+        turn = 0; // 첫 번째 플레이어의 턴으로 설정
         InitGameBtn.SetActive(false);
         PV.RPC("InitGameRPC", RpcTarget.AllViaServer);
     }
@@ -110,6 +112,13 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
             if (PhotonNetwork.PlayerList[i] == PhotonNetwork.LocalPlayer)
                 myNum = i;
+        }
+
+        // 턴에 따라 Roll 버튼과 화살표 이미지의 초기 상태를 설정
+        RollBtn.SetActive(myNum == turn);
+        for (int i = 0; i < 2; i++)
+        {
+            ArrowImages[i].SetActive(i == turn);
         }
     }
 
@@ -137,8 +146,21 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         MoneyTexts[0].text = money0.ToString();
         MoneyTexts[1].text = money1.ToString();
 
-        if (money0 <= 0 || money1 >= 300) LogText.text = NicknameTexts[1].text + "이 승리하셨습니다";
-        else if (money1 <= 0 || money0 >= 300) LogText.text = NicknameTexts[0].text + "이 승리하셨습니다";
+        if (money0 <= 0 || money1 >= 300)
+        {
+            LogText.text = NicknameTexts[1].text + "이 승리하셨습니다";
+            overBtn.SetActive(true);
+        }
+        else if (money1 <= 0 || money0 >= 300)
+        {
+            LogText.text = NicknameTexts[0].text + "이 승리하셨습니다";
+            overBtn.SetActive(true);
+        }
+    }
+
+    public void overbtn()
+    {
+        SceneManager.LoadScene("Ex");
     }
 
     IEnumerator RollCo()

@@ -8,7 +8,7 @@ public class PlayerScript : MonoBehaviour
     public NetworkManager NM;
     public PlayerScript otherPlayer;
 
-    public IEnumerator Move(int diceNum)
+    public IEnumerator Move(int diceNum) 
     {
         // 갈 길 배열 만들기
         int[] movePos = new int[diceNum];
